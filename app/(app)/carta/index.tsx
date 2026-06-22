@@ -1,16 +1,29 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { useEffect } from 'react'
+import { View, StyleSheet } from 'react-native'
+import { useRouter } from 'expo-router'
+import { useCartaStore } from '@/stores/useCartaStore'
+import { ListaCategorias } from '@/components/ListaCategorias'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
-export default function CartaScreen() {
+export default function CartaStandaloneScreen() {
+  const router = useRouter()
+  const { categorias, cargarCarta, getSubcategorias } = useCartaStore()
+
+  useEffect(() => {
+    if (categorias.length === 0) cargarCarta()
+  }, [])
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Carta</Text>
-      <Text style={styles.hint}>Pantalla placeholder · se construye en Fase 3</Text>
+      <Breadcrumb categoriaId={null} onNavegar={() => {}} />
+      <ListaCategorias
+        categorias={getSubcategorias(null)}
+        onSelect={(id) => router.push(`/(app)/carta/${id}`)}
+      />
     </View>
   )
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 24 },
-  title: { fontSize: 20, fontWeight: '700', color: '#1a1a1a' },
-  hint: { fontSize: 13, color: '#888', marginTop: 8 },
+  container: { flex: 1, backgroundColor: '#f5f5f5' },
 })

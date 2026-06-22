@@ -1,10 +1,8 @@
-import { useEffect } from 'react'
-import { Tabs, useRouter } from 'expo-router'
+import { Tabs } from 'expo-router'
 import { useAuthStore } from '@/stores/useAuthStore'
 
 export default function AppLayout() {
   const { isGarzon } = useAuthStore()
-  const router = useRouter()
   const soloGarzon = isGarzon()
 
   return (
