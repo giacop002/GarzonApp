@@ -2,18 +2,36 @@ import { useEffect, useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { useRouter } from 'expo-router'
 import { useMesasStore } from '@/stores/useMesasStore'
+import { usePedidosStore } from '@/stores/usePedidosStore'
 import { MapaMesas } from '@/components/MapaMesas'
 import { PanelMesasVirtuales } from '@/components/PanelMesasVirtuales'
-import { ZONA_EXTERIOR, ZONA_INTERIOR } from '@/constants/mesas'
 
 export default function MesasScreen() {
   const router = useRouter()
   const { cargarMesas, mesas, zonas, getMesasPorZona } = useMesasStore()
-  const [zonaActiva, setZonaActiva] = useState(ZONA_EXTERIOR)
+  const [zonaActiva, setZonaActiva] = useState('')
 
   useEffect(() => {
-    if (mesas.length === 0) cargarMesas()
+    const init = async () => {
+      if (mesas.length === 0) await cargarMesas()
+      // Recupera del servidor pedidos activos del garzón (ej. tras reinstalar).
+      await usePedidosStore.getState().cargarPedidosActivos()
+      // Reconciliación: si una mesa libre tiene un pedido activo, ocupada.
+      const { pedidosPorMesa } = usePedidosStore.getState()
+      const { estadosMesa, actualizarEstadoMesa } = useMesasStore.getState()
+      Object.keys(pedidosPorMesa).forEach((mesaId) => {
+        if ((estadosMesa[mesaId]?.estado ?? 'libre') === 'libre') {
+          actualizarEstadoMesa(mesaId, 'ocupada')
+        }
+      })
+    }
+    init()
   }, [])
+
+  // Selecciona la primera zona (por orden) una vez cargadas.
+  useEffect(() => {
+    if (!zonaActiva && zonas.length > 0) setZonaActiva(zonas[0].id)
+  }, [zonas, zonaActiva])
 
   const irADetalle = (mesaId: string) => {
     router.push(`/(app)/mesas/${mesaId}`)

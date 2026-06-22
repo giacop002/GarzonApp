@@ -12,6 +12,8 @@ export default function DetalleMesaScreen() {
   const pedido = usePedidosStore((s) => s.pedidosPorMesa[mesaId])
   const iniciarPedido = usePedidosStore((s) => s.iniciarPedido)
   const marcarComoEnviado = usePedidosStore((s) => s.marcarComoEnviado)
+  const syncError = usePedidosStore((s) => s.syncErrores[mesaId])
+  const reintentarSync = usePedidosStore((s) => s.reintentarSync)
 
   const mesa = getMesaById(mesaId)
 
@@ -66,6 +68,14 @@ export default function DetalleMesaScreen() {
           </View>
         )}
       </View>
+
+      {syncError && (
+        <TouchableOpacity style={styles.syncError} onPress={() => reintentarSync(mesaId)}>
+          <Text style={styles.syncErrorTexto}>
+            ⚠ No se pudo sincronizar con el servidor. Tocá para reintentar.
+          </Text>
+        </TouchableOpacity>
+      )}
 
       {!pedido ? (
         <View style={styles.sinPedido}>
@@ -122,4 +132,11 @@ const styles = StyleSheet.create({
   },
   botonSecundarioTexto: { color: '#2e7d32', fontSize: 16, fontWeight: '600' },
   error: { fontSize: 16, color: '#c62828', textAlign: 'center', marginTop: 40 },
+  syncError: {
+    backgroundColor: '#fff3e0',
+    borderRadius: 8,
+    padding: 12,
+    marginBottom: 12,
+  },
+  syncErrorTexto: { color: '#e65100', fontSize: 13, fontWeight: '500' },
 })

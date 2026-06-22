@@ -1,0 +1,172 @@
+CARTA
+
+1. Líquidos
+	1.1 Fríos
+		1.1.1 Jugos (450cc):
+			- frutilla $4.290
+			- piña $4.290
+			- mango $4.290
+			- piña-mango $4.290
+			- mango-maracuyá $4.290
+			- frutilla-piña $4.290
+		1.1.2 Limonadas (450cc):
+			- Limón $4.290
+			- Limón Menta $4.290
+			- Menta Jengibre $4.290
+			- Frutilla $4.290
+		1.1.3 Bebidas (450cc):
+			- Pepsi $2.990
+			- Pepsi Zero $2.990
+			- Crush $2.990
+			- 7up $2.990
+			- Bilz $2.990
+			- Kem Piña $2.990
+		1.1.4 Milkshakes: 
+			- Vainilla $4.990: "Helado, leche y crema, sabor a elección."
+			- Frutilla $4.990: "Helado, leche y crema, sabor a elección."
+			- Chocolate $4.990: "Helado, leche y crema, sabor a elección."
+		1.1.5 BARRA
+			1.1.5.1 Aperitivos:
+				- Pisco Sour ($2.990 hasta 17:00hrs) ($3.990 más tarde)
+				- ... (rellenar con más aperitivos clásicos sin descuento)
+			1.1.5.2 Cocktails:
+				- Moscow Mule (**NO DISPONIBLE**)
+				- ... (rellenar con tragos clásicos)
+			1.1.5.3 Cervezas (** para schop: opción de chela/michelar vaso por $1.000)
+				1.1.5.3.1 Schop Grande (500cc):
+					- Escudo $4.290
+					- Royal Guard $4.790
+					- Heineken $4.790
+					- Kuntsmann Torobayo $5.290
+					- Austral Calafate $5.290
+				1.1.5.3.2 Schop XL (700cc):
+					- Escudo $5.290
+					- Royal Guard $6.290
+					- Heineken $6.290
+					- Kuntsmann Torobayo $7.290
+					- Austral Calafate $7.290
+				1.1.5.3.3 Mojito Sol XL $6.990
+				1.1.5.3.4 Sin Alcohol (botellas 330cc)
+					- Heineken $3.990
+					- Kuntsmann $4.990
+		1.1.3 Agua Mineral (600cc) $1.990
+		1.1.4 Energética Red Bull (250cc) $3.000
+	1.2 Calientes
+		- Café Express Simple $2.690
+		- Café Express Doble $3.690
+		- Cortado Clásico $2.790
+		- Nescafé $2.490
+		- Té Dilmah $2.490
+2. Acompañamientos
+	2.1 Picoteos
+		- Quesadilla de Pollo $8.990: "Quesadilla rellena de jugosa pechuga de pollo, queso fundido, choclo, pimentón, tomate y cebolla salteada."
+		- Quesadilla de Carne $10.990: "Quesadilla rellena con sabrosa carne y queso fundido."
+		- Papas Gringas $10.990: "Papas fritas con crocante tocino y salsa de queso cheddar."
+		- Picoteo Clásico $14.990: "Combinación ideal de empanaditas de queso, crujientes papas fritas, crocantes filetes de pollo apanados y salsa barbecue."
+		- Picoteo Gran Máster $14.990: "Gran variedad de deliciosos acompañamientos: crujientes papas fritas, alitas de pollo barbecue, empanaditas de queso, trozos de pollo crocante, aros de cebolla, nachos de la casa con salsa barbecue."
+		- Picoteo Camarones $12.990: (**NO DISPONIBLE**) "Camarones apanados, aros de papa con trocitos de cebolla salteada y mayonesa de la casa."
+		- Papas Mechada Cheddar $14.990: "Papas fritas con carne mechada, salsa de queso cheddar y un toque de cebollín."
+	2.2 Tablas
+		2.2.1 Titánicas
+			- Titánica Carnívora $22.990: "Base crujiente papas fritas con cortes de carne de vacuno, de cerdo y trozos de pollo, todo acompañado de cebolla caramelizada, pimentón y cebollín salteados, chorizo, huevos, trocitos de tocino, 3 salsas de la casa y nachos."
+			- Titánica Pollo Champiñón $19.990: "Exquisita combinación de crujientes papas fritas con trozos de pollo a la plancha con champiñones salteados, crema, un toque de cebollín, 3 variedades de salsas y nachos de la casa."
+			- Titánica Carne Champiñón $21.990: "Exquisita combinación de crujientes papas fritas con trozos de carne con champiñones salteados, crema, un toque de cebollín, 3 variedades de salsas y nachos de la casa."
+			- Titánica Clásica $21.990: "Crujientes papas fritas con carne mechada, chorizo, vienesas, huevos, pimentón y cebollín salteados, cebolla caramelizada, 3 salsas y nacho de la casa."
+			- Titánica Mechada Cheddar $21.990: "Crujientes papas fritas con carne mechada, salsa de queso cheddar, un toque de cebollín y nachos de la casa."
+		2.2.2 Tabla Brochetas $18.990 (**NO DISPONIBLE**): "Brochetas de pollo, camarones, cerdo, quesadilla rellena de pollo, choclo, pimentón, tomate, cebolla y queso, mozzarella stick y salsa de la casa."
+		2.2.3 Quesadillas Mixtas $17.990: "Quesadillas de carne con queso fundido y de pollo con choclo, pimentón, tomate, cebolla y queso, con dos salsas de la casa."
+		2.2.4 Tabla La Crujiente $14.990: "Pollo apanado con crujientes aros de papa con trocitos de cebolla salteada, mozarela stick (cortes de queso apanados) y mayonesa de la casa."
+		2.2.5 Tabla Camarones $14.990: (**NO DISPONIBLE**) "Camarones y  trozos de pollo apanados, acompañados de papas fritas y mayo con un toque de merkén."
+	2.3 Porción 3 empanaditas de queso $1.990 (disponible hasta las 17:00 hrs)
+	2.4 Porción 6 empanaditas de queso $3.890 (todo el día)
+	2.5 Porción de papas fritas $3.990
+	2.6 Porción 3 supremitas de pollo $2.990
+	2.7 Porción 3 mozarella stick $2.990
+3. Platos
+	3.1 Sándwiches & Hamburguesas con Papas Fritas
+		3.1.1 Sándwiches
+			- Sándwich Pollo Gringo $9.990: (**NO DISPONIBLE**) "Trozos de pollo apanado, queso cheddar, tocino, aros de cebolla fritos, salsa barbecue y cebolla caramelizada."
+			- Sándwich Barros Luco $10.990: "Jugosa carne con delicioso queso fundido."
+			- Sándwich Pollo Crunch $9.990: "Pollo apanado, queso, tomate, palta natural y mayonesa de la casa."
+			- Sándwich Churrasco Italiano $10.990: "Sabrosos cortes de carne con palta, frescos tomates y mayonesa de la casa."
+			- Sándwich Chacarero $10.990: "Clásico sándwich con jugosa carne, tomate, mayonesa, porotos verdes y ají."
+			- Sándwich Mechada Queso $10.990 "Sabrosa carne mechada con queso fundido en nuestro crujiente pan amasado."
+		3.1.2 Hamburguesas
+			- Hamburguesa Queso Tocino $10.990: "Hamburguesa de carne con queso cheddar y crocante tocino. (disponible opción NotCo.)"
+			- Hamburguesa La Gringa $10.990: "Hamburguesa hecha en casa con lechuga, queso cheddar, pepinillo, tomate, kétchup, cebolla caramelizada, en pan brioche, acompañada de papas fritas (disponible opción NotCo.)"
+			- Hamburguesa Gran George $10.990 "Exquisita hamburguesa hecha en casa con un sabor único con tocino, queso, deliciosos aros de cebolla, un toque de salsa barbecue y fresca lechuga (disponible opción NotCo.)"
+			- Hamburguesa Italiana $9.990 "Deliciosa hamburguesa casera, con palta natural, tomate y mayonesa (disponible opción NotCo.)"
+			- Hamburguesa La Pecadora $10.990 "Hamburguesa de la casa, queso cheddar, tocino, cebolla caramelizada, salsa barbecue y un toque de mayo merkén."
+	3.2 Pastas
+		- Tallarines con Lomo Saltado $11.990 "Deliciosos cortes de lomo de vacuno salteados con cebollín, frescos tomates, cebolla morada y salsa de soya al estilo peruano cocinados con tallarines."
+		- Tallarines con Pollo Saltado $9.990 "Tallarines con jugosos trozos de pollo salteados con salsa de soya, cebolla morada, tomates, cebollín, al estilo peruano."
+		- Spaghetti en Crema de Camarones $9.990 "Spaghetti con crema de camarones salteados con un toque de ajo."
+		- Lasaña Boloñesa $9.990 "Deliciosa lasaña rellena con salsa boloñesa, crema y queso fundido, todo cubierto con queso parmesano de rallado artesanal."
+		- Spaghetti con Camarones y Pesto $9.990 "Spaghetti con salsa de pesto, camarones salteados y queso parmesano."
+		- Spaghetti Pollo Tocino $8.990: "Spaghetti con salsa blanca con un toque de ajo, trozos de pechuga de pollo, tocino y queso parmesano."
+		- Lasaña Pollo Champiñón Pesto $10.990: "Lasaña rellena de crema de champiñones, pollo, salsa pesto y un toque de queso parmesano."
+	3.3 Ensaladas
+		- Ensalada Pollo Teriyaki $9.990: "Cortes de pollo en salsa teriyaki sobre una base de mix de lechugas, palta, tomate, pimentón, cebollín y coleslaw."
+		- Ensalada Cobb $9.990: "Base de mix de lechugas con trozos de pollo, cortes de tocino, palta, huevo duro, tomate y queso parmesano."
+		- Ensalada Carnívora $10.990: "Jugosos cortes de carne a la plancha, palta, mix de lechuga, porotos negros, choclo, pimentón, zanahoria, aderezada con nuestra salsa de casa."
+		- Ensalada César Pollo $9.990: "Lechuga, pollo, queso parmesano, salsa césar y crutones."
+		- Ensalada Pollo Crocante $9.990: "Pechuga de pollo empanizado, mix de lechugas, tomate, cebolla, choclo, toque de cilantro y dressing vinagreta."
+		- Ensalada Dos Carnes $10.990: "Mix de lechugas, cortes de carne de pollo, tiras de pimentón, palmitos, choclo y queso parmesano."
+		- Palta Reina $9.990: "Mix de lechuga, dos medias paltas rellenas de pasta ave-mayo, choclo, zanahoria, tomate y palmito, acompañada de arroz."
+	3.4 Carnes, Pollo & Costillas (platos con arroz disponibles a partir de las 11:00hrs)
+		- Lomo Saltado $12.990: "Exquisitas tiras de lomo preparado al sabroso estilo peruano acompañado con arroz y crujientes papas recién fritas."
+		- Lomo en Crema de Champiñones $11.990: "Jugoso bistec de lomo liso bañado en deliciosa salsa de champiñones, acompañado con crujientes papas doradas y arroz."
+		- Bistec de Lomo a lo Pobre $12.990: "Delicioso bistec de lomo acompañado de crujientes papas fritas, cebolla caramelizada y dos huevos fritos con pan de ajo."
+		- Carne Mechada $10.990: "Carne mechada de cocción lenta con un toque de salsa de tomate y vino tinto, con arroz y crujientes papas doradas."
+		- Carne a la Mongoliana $9.990: "Cortes de carne salteados con cebollín, salsa de soya al estilo oriental, arroz y crujientes papas doradas."
+		- Mechada con Spaghetti $9.990: "Trozos de carne mechada sobre spaghetti con salsa napolitana y un toque de queso parmesano".
+		- Bistec de Lomo Mediterráneo $10.990: "Bistec de lomo a la plancha acompañado con arroz y fresca ensalada mixta."
+		- Costilla a lo Pobre $14.990: "Sabrosa costilla con un toque de barbecue acompañada con crujientes papas fritas, huevos fritos y cebolla caramelizada."
+		- Pollo Mediterráneo $8.990 "Jugosa pechuga de pollo bien sazonada, acompañada con arroz y una fresca ensalada mixta."
+		- Pollo en Crema de Champiñones $9.990: "Jugosa pechuga de pollo a la plancha en salsa de champiñones, arroz y papas doradas."
+		- Pollo en Crema de Camarones $10.990: "Pollo cubierto con una deliciosa salsa de camarones con papas doradas y arroz."
+		- Pollo Saltado $9.990: "Jugoso cortes de pollo saltado con cebolla morada, cebollín y tomate, al estilo peruano, con arroz y crujientes papas fritas."
+		- Milanesa de Pollo a lo Pobre $10.990: "Milanesa de pollo con crujientes papas fritas, huevos y cebolla frita."
+	3.5 Menú de Niños
+		- Nuggets de Pollo $6.990: "Con papas fritas y arroz."
+		- Hamburguesa de Queso $6.990: "Con papas fritas."
+	3.6 Completos (**NO DISPONIBLES**)
+		- Completo Italiano $5.990
+		- Completo Chacarero $5.990
+4. Desayunos (disponibles hasta las 11:00 hrs)
+	- Paila de Huevo con Palta + Té $3.990
+	- Paila de Huevo con Palta + Café $3.990
+	- Paila de Huevo con Tocino + Té $3.990
+	- Paila de Huevo con Tocino + Café $3.990
+	- Barros Luco + Té $4.990
+	- Barros Luco + Café $4.990
+5. Postres
+	- Panqueques con Manjar y Helado $2.990 (promoción hasta las 17:00)
+	- Tiramisú $4.990: "Dulce postre frío de origen italiano que mezcla los sbores de un queso especialmente cremoso y el café."
+	- Panqueque con Manjar y Helado $4.990: "Clásico panqueque relleno con manjar con exquisito helado de vainilla."
+	- Café Helado $4.990: "Un clásico: café con helado y crema."
+	- Panqueques Nutella $5.990: "Dos panqueques rellenos de Nutella, bola de helado y salsa de caramelo."
+	- Copa de Helado $6.990: "Helado de vainilla, chocolate y frutos rojos con crema, un clásico del verano."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

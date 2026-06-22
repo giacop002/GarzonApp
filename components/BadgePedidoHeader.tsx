@@ -18,7 +18,9 @@ export function BadgePedidoHeader({ mesaId }: Props) {
   return (
     <TouchableOpacity
       style={styles.contenedor}
-      onPress={() => router.push(`/(app)/mesas/${mesaId}`)}
+      // El resumen ya está más abajo en el stack (la carta se abrió desde él);
+      // dismissTo descarta las pantallas de carta en vez de apilar otra.
+      onPress={() => router.dismissTo(`/(app)/mesas/${mesaId}`)}
       activeOpacity={0.7}
     >
       <Text style={styles.icono}>🧾</Text>
