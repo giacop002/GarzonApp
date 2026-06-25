@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { useRouter } from 'expo-router'
 import { useMesasStore } from '@/stores/useMesasStore'
@@ -33,9 +33,10 @@ export default function MesasScreen() {
     if (!zonaActiva && zonas.length > 0) setZonaActiva(zonas[0].id)
   }, [zonas, zonaActiva])
 
-  const irADetalle = (mesaId: string) => {
-    router.push(`/(app)/mesas/${mesaId}`)
-  }
+  const irADetalle = useCallback(
+    (mesaId: string) => router.push(`/(app)/mesas/${mesaId}`),
+    [router]
+  )
 
   const mesasZona = getMesasPorZona(zonaActiva)
 

@@ -1,8 +1,14 @@
 import { useEffect } from 'react'
+import * as Sentry from '@sentry/react-native'
 import { Slot, useRouter, useSegments } from 'expo-router'
 import { useAuthStore } from '@/stores/useAuthStore'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
+import { initSentry } from '@/lib/sentry'
 
-export default function RootLayout() {
+// Inicializa el tracking de errores antes de renderizar (no-op sin DSN).
+initSentry()
+
+export default Sentry.wrap(function RootLayout() {
   const { session, inicializado, usuario, inicializar } = useAuthStore()
   const router = useRouter()
   const segments = useSegments()
@@ -24,5 +30,9 @@ export default function RootLayout() {
     }
   }, [session, inicializado, segments])
 
-  return <Slot />
-}
+  return (
+    <ErrorBoundary>
+      <Slot />
+    </ErrorBoundary>
+  )
+})

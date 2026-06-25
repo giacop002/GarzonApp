@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { TouchableOpacity, Text, StyleSheet } from 'react-native'
 import { Mesa } from '@/constants/mesas'
 import { EstadoMesaTipo } from '@/stores/useMesasStore'
@@ -13,7 +14,7 @@ interface Props {
   onPress: (mesaId: string) => void
 }
 
-export function TarjetaMesa({
+function TarjetaMesaBase({
   mesa,
   estado,
   contenedorAncho,
@@ -38,6 +39,10 @@ export function TarjetaMesa({
     </TouchableOpacity>
   )
 }
+
+// Memoizada: solo re-renderiza si cambia su estado/posición, no cuando se
+// actualiza otra mesa del mapa (clave con Realtime y muchas mesas).
+export const TarjetaMesa = memo(TarjetaMesaBase)
 
 const styles = StyleSheet.create({
   mesa: {
